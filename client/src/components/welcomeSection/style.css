@@ -1,0 +1,234 @@
+.welcomeSection {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    min-width: 100%;
+    /* 100/(1440/750) thought this would be best resolution for welcome picture%*/
+    min-height: 52.1vw;
+}
+
+#logo-white {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    width: 20%;
+}
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.fade-header {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+
+#purple-button {
+    margin-top: 10px;
+    width: 30%;
+    height: 3%;
+    font-size: 0.5rem;
+}
+
+#welcome-to-message {
+    font-size: 2rem;
+    height: 60px;
+    -webkit-text-stroke: solid #ffffff;
+    color: rgba(255, 255, 255, 0);
+    font-weight: 800;
+    line-height: 55px;
+    text-align: center;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+#rooster-grin-message {
+    font-size: 2rem;
+    height: 60px;
+    -webkit-text-stroke: solid #ffffff;
+    color: rgba(255, 255, 255);
+    font-weight: 800;
+    line-height: 55px;
+    text-align: center;
+}
+
+  /* Fade in effect */
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+  
+@-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+  
+@-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+/* Responsiveness */
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width : 467px) {
+
+    .welcomeSection {
+        min-height: 200px;
+    }
+
+    #purple-button {
+        width: 50%;
+        font-size: 0.5rem;
+
+    }
+
+    #welcome-to-message {
+        font-size: 1.5rem;
+        height: 20px;
+    }
+
+    #rooster-grin-message {
+        font-size: 1.5rem;
+        height: 40px;
+    }
+}
+  
+  
+  /* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width : 767) {
+
+    .WelcomeSection{
+        min-height: 250px;
+    }
+
+    #purple-button {
+        width: 60%;
+        font-size: 0.8rem;
+    }
+
+    #welcome-to-message {
+        font-size: 2rem;
+        height: 30px;
+    }
+
+    #rooster-grin-message {
+        font-size: 2rem;
+        height: 45px;
+    }
+}
+  
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991) {
+
+    .welcomeSection{
+        min-height: 400px;
+    }
+
+    #purple-button {
+        width: 45;
+        font-size: 1rem;
+    }
+
+    #welcome-to-message {
+        font-size: 3rem;
+        height: 45px;
+    }
+
+    #rooster-grin-message {
+        font-size: 3rem;
+        height: 60px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .welcomeSection{
+        min-height: 475px;
+    }
+
+    #purple-button {
+        width: 45%;
+        font-size: 1.25rem;
+    }
+
+    #welcome-to-message {
+        font-size: 4rem;
+        height: 60px;
+    }
+    
+    #rooster-grin-message {
+        font-size: 4rem;
+        height: 70px;
+    }
+}
+  
+  /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    .welcomeSection{
+        min-height: 600px;
+    }
+
+    #purple-button {
+        width: 40%;
+        font-size: 1.25rem;
+    }
+    
+    #welcome-to-message {
+        font-size: 5rem;
+        height: 70px;
+    }
+    
+    #rooster-grin-message {
+        font-size: 5rem;
+        height: 80px;
+    }
+}
+  
+  

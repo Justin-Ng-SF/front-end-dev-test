@@ -1,0 +1,82 @@
+.icons {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon{
+    display: inline-block;
+    min-width: 8vw;
+    min-height: 8vw;
+    border: 1px solid #AC5FD0;
+    border-radius: 100px;
+    margin: 15px 15px 15px 15px;
+}
+
+/* spin/circle thickness increase effect for icons */
+.outter:hover .icon{
+    border: 5px solid #AC5FD0;
+    transition: 4s;
+    transform: rotateY(360deg);
+    display: inline-block
+}
+
+.icon-id{
+    color: black;
+    font-weight: bold;
+}
+
+/* Responsiveness */
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+
+    .icon {
+        min-width: 14vw;
+        min-height: 14vw;
+    }
+}
+  
+  
+  /* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+    .icon{
+        display: inline-block;
+        min-width: 8vw;
+        min-height: 8vw;
+    }
+}
+  
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .icon{
+        display: inline-block;
+        min-width: 9vw;
+        min-height: 9vw;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .icon{
+        display: inline-block;
+        min-width: 7vw;
+        min-height: 7vw;
+    }
+}
+  
+  /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    .icon{
+        display: inline-block;
+        min-width: 7vw;
+        min-height: 7vw;
+    }
+}
+  

@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+#App-logo {
+  position: relative;
+  height: 45px;
+  width: 249px;
+  top: 0px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* icons */
+.icons {
+  position: relative;
+  right: 0%;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+
+/* rating section */
+.rating {
+  position: absolute;
+
+  margin: 0 25%;
+  top: 35%;
+  text-align: left;
+  width: 60%;
+}
+
+.rating h2{
+  font-weight: bold;
+}
+
+.rating img{
+  width: 50%;
+
+}
+
+/* Responsiveness */
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+
+  .App{
+    min-width: 100%;
+  }
+
+  .rating-msg{
+    font-size: 1.2rem;
+  }
+}
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+  .App{
+    min-width: 100%;
+  }
+
+  .rating-msg{
+    font-size: 1.4rem;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+  .App{
+    min-width: 100%;
+  }
+
+  .rating-msg{
+    font-size: 2rem;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+  .App{
+    min-width: 100%;
+  }
+
+  .rating-msg{
+    font-size: 2.5rem;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+  .App{
+    min-width: 100%;
+  }
+  
+  .rating-msg{
+    font-size: 3rem;
+  }
+}
+

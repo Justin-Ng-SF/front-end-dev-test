@@ -1,0 +1,29 @@
+.footer {
+    position: absolute;
+    background-color: #FAFAFA;
+    width: 100%;
+}
+
+.footer-message{
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+
+.footer-icons{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-icon {
+    height: 6vw;
+    width: 6vw;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 100px;
+    max-height: 100px;
+    padding: 10px;
+}

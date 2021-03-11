@@ -1,0 +1,132 @@
+.paragraph{
+    position: absolute;
+    margin: 0 30%;
+    text-align: left;
+    width: 60%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.paragraph-content{
+    font-weight: 600;
+}
+
+.paragraph-header{
+    font-weight: bold;
+}
+
+.paragraph-link {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Responsiveness */
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+
+    .paragraph-header{
+        font-size: 1.1rem;
+    
+    }
+
+    .paragraph-content{
+        font-size: .6rem;
+    
+    }
+
+    .paragraph-link {
+        font-size: 0.6rem;
+    }
+
+    #button {
+        font-size: 0.6rem;
+    }
+}
+  
+  
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+    .paragraph-header{
+        font-size: 1.5rem;
+    }
+
+    .paragraph-content{
+        font-size: 0.7rem;
+    }
+
+    .paragraph-link {
+        font-size: 0.7rem;
+    }
+    
+    #button {
+        font-size: 0.7rem;
+    }
+}
+  
+  /* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .paragraph-header{
+        font-size: 2.5rem;
+    }
+
+    .paragraph-content{
+        font-size: 0.9rem;
+
+    }
+
+    .paragraph-link {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width : 1499px) {
+
+    .paragraph-header{
+        font-size: 2.5rem;
+    }
+
+    .paragraph-content{
+        font-size: 1.1rem;
+    }
+
+    .paragraph-link {
+        font-size: 1.1rem;
+    }
+
+    #button {
+        font-size: 1.5rem;
+    }
+    
+
+}
+  
+  /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    .paragraph-header{
+        font-size: 3rem;
+    
+    }
+
+    .paragraph-content{
+        font-size: 1.2rem;
+    
+    }
+
+    .paragraph-link {
+        font-size: 1.2rem;
+    }
+
+    #button {
+        font-size: 1.5rem;
+        height: 60px;
+    }
+}
+
+  
+  

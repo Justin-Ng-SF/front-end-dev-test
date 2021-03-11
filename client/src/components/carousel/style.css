@@ -1,0 +1,154 @@
+.carousel {
+    position: relative;
+    left: -5%;
+    top: 10%
+}
+
+/* built in carousel from react */
+/* using important to override react for repositioning purposes */
+.carousel-indicators{
+    bottom: 0 !important;
+}
+
+.carousel-indicators li {
+    background-color: orange !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    border-radius: 50% !important;
+}
+
+/* carousel caption */
+.carousel-caption {
+    position: relative !important;
+    color: black !important;
+    top: 20px;
+    left: 15% !important;
+    width: 70%;
+}
+
+.carousel-caption h5 {
+    text-align: center;
+    color: rgb(80, 0, 80);
+}
+
+.carousel-caption p {
+    text-align: left;
+}
+/* ================ */
+
+/* carousel arrows */
+.carousel-control-next {
+    bottom: 50px !important;
+}
+
+.carousel-control-prev {
+    bottom: 50px !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='purple' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='purple' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+/* ================= */
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 50%;
+}
+
+/* Responsiveness */
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+
+    .header{
+        font-size: 0.8rem;
+    }
+    
+    .context{
+        font-size: 0.6rem;
+    }
+
+    .carousel-indicators{
+        bottom: 10% !important;
+    }
+
+    .carousel-indicators li {
+        width: 7px !important;
+        height: 7px !important;
+    }
+
+}
+  
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+    .header{
+        font-size: 1rem;
+    }
+
+    .context{
+        font-size: 0.7rem;
+    }
+
+    .carousel-indicators{
+        bottom: 13% !important;
+    }
+}
+  
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .header{
+        font-size: 1.2rem;
+    }
+
+    .context{
+        font-size: .9rem;
+    }
+
+    .carousel-indicators{
+        bottom: 10% !important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .header{
+        font-size: 2rem;
+    }
+
+    .context{
+        font-size: 1.2rem;
+    }
+
+    .carousel-indicators{
+        bottom: 0 !important;
+    }
+}
+  
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    .header{
+        font-size: 2rem;
+    }
+
+    .context{
+        font-size: 1.25rem;
+    }
+
+    .carousel-indicators{
+        bottom: -20% !important;
+    }
+}
+  
+  

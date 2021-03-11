@@ -1,0 +1,60 @@
+.subsection {
+    position: relative;
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.subsection .subsection-item {
+    position: relative;
+    width: 50%;
+}
+
+/* Responsiveness */
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+    
+    .subsection {
+        min-height: 200px;
+    }
+}
+  
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+    .subsection {
+        min-height: 200px;
+    }
+}
+  
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .subsection {
+        min-height: 300px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .subsection {
+        min-height: 400px;
+    }
+}
+  
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    .subsection {
+        min-height: 500px;
+    }
+}
+
+  
+  
